@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Happy Dogs</title>
+    <meta charset="utf-8">
+    <meta name="A lot of happy dogs" content="A lot of happy dogs">
+    <link rel="shortcut icon" href="/favicon.ico">
+</head>
+
+<body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header" style="background-color: #63aab8;">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <i class="fas fa-dog" style="padding-right: 20px; font-size: 30px"></i>
+                <span class="mdl-layout-title">The Dog Project</span>
+            </div>
+        </header>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                {% block content %}{% endblock %}
+            </div>
+        </main>
+    </div>
+</body>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script src="https://kit.fontawesome.com/02d86e3e8f.js" crossorigin="anonymous"></script>
+
+</html>
