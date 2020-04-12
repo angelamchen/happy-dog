@@ -7,3 +7,11 @@ Website can be viewed here: http://thedogproject.ap-northeast-1.elasticbeanstalk
 Images taken from https://dog.ceo/dog-api/
 
 This project was made only for learning purposes.
+
+### Running Locally
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python ./app.py
+```
