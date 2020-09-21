@@ -1,4 +1,4 @@
-# happy-dog
+# happy-dog 🦮
 
 Simple static site created using Flask to learn how to use Docker. The website generates a picture of a cute dog on each refresh.
 
