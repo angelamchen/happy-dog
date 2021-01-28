@@ -40,3 +40,20 @@ params = {
 }
 
 r = requests.get("url", params=params)
+
+return jsonify(
+    dict(redirect="",thing="")
+)
+
+requests.post(
+    "...",
+    json={
+        "text: "asdasd" + \
+        "asdasd"
+    }
+    
+def get_thing:
+    item = []
+    for c in categoies:
+        categories.append(category)
+    return
