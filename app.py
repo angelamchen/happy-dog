@@ -22,3 +22,21 @@ def get_dog():
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+    
+    
+# import request
+
+# response = requests.get("...")
+# response.status_code
+# payload = response.json();
+
+# obj = json.loads(payload)
+
+# ob['field']
+
+params = {
+    "thing": asdasd,
+    "thing": asdasd
+}
+
+r = requests.get("url", params=params)
