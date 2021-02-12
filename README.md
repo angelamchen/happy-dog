@@ -2,8 +2,6 @@
 
 Simple static site created using Flask to learn how to use Docker. The website generates a picture of a cute dog on each refresh.
 
-Website can be viewed here: http://thedogproject.ap-northeast-1.elasticbeanstalk.com/
-
 Images taken from https://dog.ceo/dog-api/
 
 This project was made only for learning purposes.
